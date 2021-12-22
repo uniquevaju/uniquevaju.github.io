@@ -84,7 +84,10 @@ nav img {
   background: red;
   transition: 1s;
 }
-.menu {
+.menu-close {
+  display: none;
+}
+.menu-open {
   display: none;
 }
 
@@ -107,8 +110,8 @@ nav img {
   }
   .menu-open {
     display: block;
-    max-height: 30px;
-    max-width: 30px;
+    max-height: 20px;
+    max-width: 20px;
     margin: 10px 300px 10px;
     cursor: pointer;
   }
